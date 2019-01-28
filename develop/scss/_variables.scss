@@ -1,0 +1,44 @@
+//__________text
+$white-text: #ffffff;
+$grey-dark-text: #444444;
+$grey-light-text: #777777;
+$black-text: #222222;
+$blue-text: #59b7c2;
+
+
+//__________background
+$white-bg: #ffffff;
+$white-bg-text: rgba(255,255,255,0.7);
+$grey-gradient-bg: #f5f7f9;
+$grey-bg: #e6e9ed;
+$grey-bg-menu: #f5f7f9;
+$blue-bg: #78c4cd;
+$topper-line-top: #59b7c2;
+$topper-line-middle: #7fcbce;
+$topper-line-bottom: #aadce0;
+
+
+//__________border
+$grey-menu-brdr: #e0e0e0;
+$grey-banners-brdr: #e0e0e0;
+$grey-search-brdr: #aaaaaa;
+
+
+//__________hover,focus,active 
+$grey-banners-brdr-hover: #cccccc;
+$grey-search-brdr-focus: #59b7c2;
+$login-btn-hover: #66b6bf;
+$signup-btn-hover: #66b6bf;
+
+
+//__________breakpoint
+$lg: 1199px;
+$md: 991px;
+$sm: 767px;
+$xs: 575px;
+
+
+//__________retina
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;
+

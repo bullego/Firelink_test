@@ -1,0 +1,35 @@
+@mixin segoe-light {
+	font-family: 'Segoe UI Light';
+	font-size: 20px;
+	line-height: 1;
+	font-style: normal;
+	font-weight: 300;
+}
+@mixin segoe-reg {
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	line-height: 1;
+	font-style: normal;
+	font-weight: 400;
+}
+@mixin segoe-bold {
+	font-family: 'Segoe UI';
+	font-size: 13px;
+	line-height: 1;
+	font-style: normal;
+	font-weight: 700;
+}
+@mixin bitter-reg {
+	font-family: 'Bitter';
+	font-size: 14px;
+	line-height: 1;
+	font-style: normal;
+	font-weight: 400;
+}
+@mixin bitter-bold {
+	font-family: 'Bitter';
+	font-size: 14px;
+	line-height: 1;
+	font-style: normal;
+	font-weight: 700;
+}

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<title>Breeze</title>
+
+	<!-- Preload Fonts -->
+	<link rel="preload" href="fonts/Bitter-Bold.woff2" as="font">
+	<link rel="preload" href="fonts/Bitter-Regular.woff2" as="font">
+	<link rel="preload" href="fonts/Segoe-UI-Bold.woff2" as="font">
+	<link rel="preload" href="fonts/Segoe-UI-Light.woff2" as="font">
+	<link rel="preload" href="fonts/Segoe-UI-Regular.woff2" as="font">
+	
+	<!-- Bootstrap-4 / Slick-slider -->
+	<link rel="stylesheet" href="css/custom-bootstrap.min.css">
+	<link rel="stylesheet" href="css/slick.min.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<!-- ____________________section_1(topper) -->
+	<section class="topper" id="topper">
+		<div class="container">
+			
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-6 col-12 order-md-1 order-sm-1 order-3">
+					<div class="topper-phone">
+						<span class="topper-phone__icon"></span>
+						<p class="topper-phone__number">Call Us +777 (100) 1234</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-2 order-md-3 order-sm-3 order-2">
+					<p class="topper-invite">
+						Welcome visitor you can
+						<a class="topper-invite__link" href="#">login</a> or 
+						<a class="topper-invite__link" href="#">create an account</a>.
+					</p>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-12 order-lg-3 order-md-2 order-sm-2 order-1">
+					<div class="topper-change--wrap  change">
+						<ul class="change-lang">
+							<li class="change-lang__btn">
+								EN
+							</li>
+							<li class="change-lang__btn">
+								FR
+							</li>
+							<li class="change-lang__btn">
+								GM
+							</li>
+						</ul>
+						<ul class="change-currency">
+							<li class="change-currency__btn">
+								$
+							</li>
+							<li class="change-currency__btn">
+								&#8364;
+							</li>
+							<li class="change-currency__btn">
+								&#163;
+							</li>
+						</ul>
+					</div><!-- ./change -->
+				</div>
+			</div><!-- ./row -->
+			
+		</div><!-- ./container -->		
+	</section>
+<!-- ____________________section_2(page-header) -->
+	<header class="page-header" id="page-header">
+		<div class="user-menu__wrap">
+			<div class="container">			
+				<div class="row d-flex align-items-center">
+					<div class="col-lg-3 col-md-4 col-sm-12 col-12 order-md-1 order-sm-1 order-1">
+						<h1 class="visually-hidden">Breeze | Online Store Theme</h1>
+						<picture>							
+							<img class="main-logo"
+								 src="img/logo-breeze@1x.png"
+								 srcset="img/logo-breeze@2x.png 2x" 
+								 alt="Breeze logo">
+						</picture>
+					</div>
+					<div class="col-lg-3 col-md-12 col-sm-12 col-12 order-lg-2 order-md-3 order-sm-3 order-3">
+						<label class="page-search">
+							<span class="visually-hidden">Search entire store here...</span>
+							<input class="page-search__input"
+								   type="text"
+								   name="search"
+								   placeholder="Search entire store here...">
+							<span class="page-search__input-icon"></span>
+						</label>
+					</div>
+					<div class="col-lg-6 col-md-8 col-sm-12 col-12 order-md-2 order-lg-3 order-sm-2 order-2">
+						<div class="user-menu">
+							<ul class="user-menu__items">
+								<li class="user-menu__item">
+									<a class="user-menu__link" href="#">My Account</a>
+								</li>
+								<li class="user-menu__item">
+									<a class="user-menu__link" href="#">My Wishlist</a>
+								</li>
+								<li class="user-menu__item">
+									<a class="user-menu__link btn-login" href="#">Log In</a>
+								</li>
+								<li class="user-menu__item">
+									<a class="user-menu__link btn-signup" href="#">Sing Up</a>
+								</li>
+							</ul>
+							<div class="basket">
+								<button class="basket__btn" type="button">Cart $0.00</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main-menu__wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<nav class="main-menu">
+							<button class="main-menu__toggle-btn" type="button">
+								<span class="visually-hidden">Кнопка открытия/закрытия меню</span>
+							</button>
+
+							<ul class="main-menu__items">
+
+								<li class="main-menu__item  main-menu__item--active">
+									<a class="main-menu__link" href="#">
+										HOME
+									</a>
+								</li>
+
+								<li class="main-menu__item">
+									<a class="main-menu__link" href="#">
+										SOLIDS
+									</a>
+								</li>
+
+								<li class="main-menu__item">
+									<a class="main-menu__link" href="#">
+										LIQUIDS
+									</a>
+								</li>
+
+								<li class="main-menu__item">
+									<a class="main-menu__link" href="#">
+										SPRAY
+									</a>
+									<ul class="main-menu__sub-items">
+										<li class="main-menu__sub-item">
+											<a class="main-menu__sub-link href="#">
+												For home
+											</a>
+										</li>
+										<li class="main-menu__sub-item">
+											<a class="main-menu__sub-link href="#">
+												For Garden
+											</a>
+										</li>
+										<li class="main-menu__sub-item">
+											<a class="main-menu__sub-link href="#">
+												For car
+											</a>
+										</li>
+										<li class="main-menu__sub-item">
+											<a class="main-menu__sub-link href="#">
+												Other spray
+											</a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="main-menu__item">
+									<a class="main-menu__link" href="#">
+										ELECTRIC
+									</a>
+								</li>
+
+								<li class="main-menu__item">
+									<a class="main-menu__link" href="#">
+										FOR CARS
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slider">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+
+						<div class="slider__wrap">
+							<div class="slider__item">
+								<picture>
+									<source type="image/webp"					media="(min-width: 320px)"
+											srcset="img/sl-breeze@1x.webp 1x, img/sl-breeze@2x.webp 2x">
+
+									<img class="slider__item-img"
+										 src="img/sl-breeze@1x.jpg"
+										 srcset="img/sl-breeze@2x.jpg 2x"
+										 alt="Breeze">
+								</picture>
+								<div class="slider__item-text--wrap">
+									<h2 class="slider__item-title">
+										<span>Breeze Noticeables</span>
+									</h2>
+
+									<p class="slider__item-text">
+										<span>The new series of natural air fresheners.</span>
+									</p>
+									<p class="slider__item-text">
+										<span>Febreze Noticeables Meadows & Rain</span>
+									</p>
+									<p class="slider__item-text">
+										<span>Air Freshener Refill.</span>
+									</p>
+								</div>
+							</div><!-- ./slider__item -->
+							<div class="slider__item">
+								<picture>
+									<source type="image/webp"					media="(min-width: 320px)"
+											srcset="img/sl-breeze@1x.webp 1x, img/sl-breeze@2x.webp 2x">
+
+									<img class="slider__item-img"
+										 src="img/sl-breeze@1x.jpg"
+										 srcset="img/sl-breeze@2x.jpg 2x"
+										 alt="Breeze">
+								</picture>
+								<div class="slider__item-text--wrap">
+									<h2 class="slider__item-title">
+										<span>Breeze Noticeables</span>
+									</h2>
+
+									<p class="slider__item-text">
+										<span>The new series of natural air fresheners.</span>
+									</p>
+									<p class="slider__item-text">
+										<span>Febreze Noticeables Meadows & Rain</span>
+									</p>
+									<p class="slider__item-text">
+										<span>Air Freshener Refill.</span>
+									</p>
+								</div>
+							</div><!-- ./slider__item -->
+							<div class="slider__item">
+								<picture>
+									<source type="image/webp"					media="(min-width: 320px)"
+											srcset="img/sl-breeze@1x.webp 1x, img/sl-breeze@2x.webp 2x">
+
+									<img class="slider__item-img"
+										 src="img/sl-breeze@1x.jpg"
+										 srcset="img/sl-breeze@2x.jpg 2x"
+										 alt="Breeze">
+								</picture>
+								<div class="slider__item-text--wrap">
+									<h2 class="slider__item-title">
+										<span>Breeze Noticeables</span>
+									</h2>
+
+									<p class="slider__item-text">
+										<span>The new series of natural air fresheners.</span>
+									</p>
+									<p class="slider__item-text">
+										<span>Febreze Noticeables Meadows & Rain</span>
+									</p>
+									<p class="slider__item-text">
+										<span>Air Freshener Refill.</span>
+									</p>
+								</div>
+							</div><!-- ./slider__item -->
+						</div>
+
+					</div><!-- ./col -->
+				</div><!-- ./row -->
+			</div><!-- ./container -->
+		</div><!-- ./slider -->
+	</header>
+
+	<main class="main" id="main">
+<!-- ____________________section_3(banners) -->
+		<section class="banners">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-10 col-12 offset-md-0 offset-sm-1 offset-0">
+						<h2 class="visually-hidden">Banners | Best Price</h2>
+						<a class="banners__link  link-price" href="#">
+							<span class="banners__link-title">Best price</span>
+							<span class="banners__link-text">this week</span>
+						</a>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-10 col-12 offset-md-0 offset-sm-1 offset-0">
+						<h2 class="visually-hidden">Banners | New smell</h2>
+						<a class="banners__link  link-smells" href="#">
+							<span class="banners__link-title">New smell</span>
+							<span class="banners__link-text">in the next series</span>
+						</a>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-10 col-12 offset-md-0 offset-sm-1 offset-0">
+						<h2 class="visually-hidden">Banners | Only Natural</h2>
+						<a class="banners__link  link-natural" href="#">
+							<span class="banners__link-title">Only natural</span>
+							<span class="banners__link-text">air fresheners</span>
+						</a>
+					</div>
+				</div>
+			</div>			
+		</section>
+
+	</main>
+
+<!--____________________other_settings-->
+<!--____________________POPUP_Login-->
+<div class="popup__login">	
+	<form class="form__login" action="#" method="POST">
+		<fieldset class="form__login-fieldset">
+			<legend class="form__login-legend">Login</legend>
+
+			<div class="form__login-label--wrap">
+				<label class="form__login-label">
+					<span class="form__login-name">Username:</span>
+					<input class="form__login-input"
+						   type="text"
+						   name="login"
+						   placeholder="Enter your login..."
+						   autofocus
+						   required>
+				</label>	
+				<label class="form__login-label">
+					<span class="form__login-password">Password:</span>
+					<input class="form__login-input"
+						   type="password"
+						   name="password"
+						   placeholder="Enter your password..."
+						   required>
+				</label>			
+			</div>
+		</fieldset>
+		<div class="form__btn">
+			<button class="form__login-btn--submit" type="submit">Login</button>
+		</div>
+	</form>
+</div>
+
+<!--____________________POPUP_Signup-->
+<div class="popup__signup">	
+	<form class="form__signup" action="#" method="POST">
+		<fieldset class="form__signup-fieldset">
+			<legend class="form__signup-legend">Signup</legend>
+
+			<div class="form__signup-label--wrap">
+				<label class="form__signup-label">
+					<span class="form__signup-name">Email:</span>
+					<input class="form__signup-input"
+						   type="text"
+						   name="signup"
+						   placeholder="Enter your email..."
+						   autofocus
+						   required>
+				</label>	
+				<label class="form__signup-label">
+					<span class="form__signup-password">Password:</span>
+					<input class="form__signup-input"
+						   type="password"
+						   name="password"
+						   placeholder="Enter your password..."
+						   required>
+				</label>
+				<label class="form__signup-label">
+					<span class="form__signup-password">Confirm your password:</span>
+					<input class="form__signup-input"
+						   type="password"
+						   name="confirm-password"
+						   placeholder="Confirm your password..."
+						   required>
+				</label>			
+			</div>
+		</fieldset>
+		<div class="form__btn">
+			<button class="form__signup-btn--submit" type="submit">Register</button>
+		</div>
+	</form>
+</div>
+
+	<!-- jQuery / Slick-slider / Popup / Index -->
+	<script src="js/popup.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>

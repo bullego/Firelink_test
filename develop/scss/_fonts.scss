@@ -1,0 +1,63 @@
+@font-face {
+	font-display: swap;
+  font-family: "Segoe UI Light";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Segoe UI Light"),
+       local("SegoeUI-Light"),
+  		 url("../fonts/Segoe-UI-Light.woff2") format("woff2"),
+    	 url("../fonts/Segoe-UI-Light.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Segoe UI Regular"),
+       local("SegoeUI"),
+       url("../fonts/Segoe-UI-Regular.woff2") format("woff2"),
+       url("../fonts/Segoe-UI-Regular.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Segoe UI Bold"),
+       local("SegoeUI-Bold"),
+       url("../fonts/Segoe-UI-Bold.woff2") format("woff2"),
+       url("../fonts/Segoe-UI-Bold.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Bitter";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Bitter"),
+       local("Bitter Regular"),
+       url("../fonts/Bitter-Regular.woff2") format("woff2"),
+       url("../fonts/Bitter-Regular.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Bitter";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Bitter"),
+       local("Bitter Bold"),
+       url("../fonts/Bitter-Bold.woff2") format("woff2"),
+       url("../fonts/Bitter-Bold.woff") format("woff");
+}
+
+
+/* 
+100 - Thin
+200 - Extra Light, Ultra Light
+300 - Light
+400 - Normal, Book, Regular
+500 - Medium
+600 - Semi Bold, Demi Bold
+700 - Bold
+800 - Extra Bold, Ultra Bold
+900 - Black, Heavy
+*/
